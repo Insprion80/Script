@@ -1,8 +1,8 @@
 #!/bin/sh
 
-★ XDREAMY Core Setup Engine ★
+#★ XDREAMY Core Setup Engine ★
 
-Version: Draft v1.0 by M.Hussein
+#Version: Draft v1.0 by M.Hussein
 
 LOGFILE="/tmp/XDREAMY_Core.log"
 
