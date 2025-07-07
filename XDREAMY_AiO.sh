@@ -1,4 +1,4 @@
-#!/bin/sh
+#!#!/bin/sh
 # ★ XDREAMY AiO - Enigma2 Setup Wizard Launcher ★
 # Version: Draft by M.Hussein
 
