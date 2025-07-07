@@ -39,7 +39,7 @@ case "$CHOICE" in
 esac
 
 # Launch Core Script
-wget --no-check-certificate https://raw.githubusercontent.com/Insprion80/Skins/main/xDreamy/XDREAMY_Core.sh -O /tmp/XDREAMY_Core.sh && \
+wget --no-check-certificate https://raw.githubusercontent.com/Insprion80/Script/main/XDREAMY_Core.sh -O /tmp/XDREAMY_Core.sh && \
 chmod +x /tmp/XDREAMY_Core.sh && \
 /tmp/XDREAMY_Core.sh "$MODE"
 
