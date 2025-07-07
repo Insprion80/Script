@@ -1,6 +1,7 @@
 #!/bin/sh
-# ★ XDREAMY Core - Enigma2 Universal Setup Logic ★
-# Version: 1.5 Draft by M.Hussein
+# XDREAMY Core Setup Script - Part of XDREAMY AiO
+# Version: Draft by M.Hussein
+
 LOGFILE="/tmp/XDREAMY_AiO.log"
 
 # === Logging Functions ===
