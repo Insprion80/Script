@@ -8,7 +8,11 @@ LOGFILE="/tmp/XDREAMY_Core.log"
 
 === Logging Functions ===
 
-log() { printf "%s\n" "$*" | tee -a "$LOGFILE"; } log_action() { printf "    • %-55s" "$1" | tee -a "$LOGFILE"; } log_done() { echo "[ ✔ ]" | tee -a "$LOGFILE"; } log_skip() { echo "[ skipped ]" | tee -a "$LOGFILE"; } log_fail() { echo "[ ✖ ]" | tee -a "$LOGFILE"; } trap 'log "[ERROR] Line $LINENO failed. Continuing..."' ERR
+log() { printf "%s\n" "$*" | tee -a "$LOGFILE"; } 
+log_action() { printf "    • %-55s" "$1" | tee -a "$LOGFILE"; } 
+log_done() { echo "[ ✔ ]" | tee -a "$LOGFILE"; } 
+log_skip() { echo "[ skipped ]" | tee -a "$LOGFILE"; } 
+log_fail() { echo "[ ✖ ]" | tee -a "$LOGFILE"; } trap 'log "[ERROR] Line $LINENO failed. Continuing..."' ERR
 
 === Header ===
 
